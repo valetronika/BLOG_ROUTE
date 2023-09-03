@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BLOG_ROUTE/static/css/main.b30126fa.css",
+    "main.js": "/BLOG_ROUTE/static/js/main.88054c6e.js",
+    "index.html": "/BLOG_ROUTE/index.html",
+    "main.b30126fa.css.map": "/BLOG_ROUTE/static/css/main.b30126fa.css.map",
+    "main.88054c6e.js.map": "/BLOG_ROUTE/static/js/main.88054c6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b30126fa.css",
+    "static/js/main.88054c6e.js"
+  ]
+}
