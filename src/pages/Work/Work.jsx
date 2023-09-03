@@ -6,10 +6,9 @@ import WorkItem from '../../components/WorkItem/WorkItem';
 
 export default function Work() {
   return (
-    <div className={`${s.work__container} wrapper_page`}>
+    <div className={`${s.work__container} `}>
       <h2>Work</h2>
       {work_data.map(el=>{
-        // console.log(el.year);
         return <WorkItem 
           key={el.id}
           id={el.id}

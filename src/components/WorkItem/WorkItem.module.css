@@ -64,6 +64,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+margin: 0px 20px 0px 20px;
+
     }
     .image {
         height: 100%;

@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function WorkItem(props) {
 
-const {id,title,full_title,main_img,tags,text,year,content}=props
+const {id,title,main_img,tags,text,year}=props
 
 const tagsString= tags.join(', ')
 
