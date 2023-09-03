@@ -8,7 +8,7 @@ export default function WorkItemPage() {
     const [workData, setWorkData] = useState({});
     console.log(workData);
     useEffect(() => {
-        const workItem = work_data.find((el) => el.id == parseInt(id));
+        const workItem = work_data.find((el) => el.id === parseInt(id));
         if (workItem) {
             setWorkData(workItem);
         }

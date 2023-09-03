@@ -2,6 +2,7 @@ import s from "./Subscribe.module.css";
 import React from "react";
 import { CiMail } from "react-icons/ci";
 import { FaGooglePlay, FaApple } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Subscribe() {
 
@@ -40,11 +41,10 @@ export default function Subscribe() {
                 <p>
                     By subscribing, you understand and agree that we will store,
                     process and manage your personal information according to
-                    our <a className={s.privacy} href="#">Privacy Policy</a>
+                    our <Link className={s.privacy} to='/contact'>Privacy Policy</Link>
                 </p>
             </form>
             <div className={s.follow_box}>
-                {/* <h3>Follow us</h3> */}
                 <h3>Download the App</h3>
                 <div>
                     <div className={s.download_button}>
