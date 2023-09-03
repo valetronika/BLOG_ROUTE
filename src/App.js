@@ -12,16 +12,17 @@ function App() {
   return (
     <>
       <main className='container'>
-      <Routes>
-          <Route path='/' element={<Layout/>}>
-              <Route index element={<Home/>}/>
-              <Route path='/blog' element={<Blog/>}/>
-              <Route path='/works' element={<Work/>}/>
-              <Route path='/works/:id' element={<WorkItemPage/>}/>
-              <Route path='/contact' element={<Contacts/>}/>
-              <Route path='*' element={<ErrorPage/>}/>
-          </Route>
-      </Routes>
+        <Routes>
+            <Route path='/' element={<Layout/>}>
+                <Route index element={<Home/>}/>
+                <Route path='/blog' element={<Blog/>}/>
+                <Route path='/works' element={<Work/>}/>
+                <Route path='/works/:id' element={<WorkItemPage/>}/>
+                <Route path='/contact' element={<Contacts/>}/>
+                <Route path='*' element={<ErrorPage/>}/>
+            </Route>
+        </Routes>
+
       </main>
 
     </>
