@@ -1,0 +1,29 @@
+.error__container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+.error__container button {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: #ffffff00;
+    font-size: x-large;
+    font-weight: 800;
+}
+.error__container button:hover{
+    color: #7c2f1c;
+}
+.btn_bk {
+    left: 0;
+}
+
+.btn_home {
+    right: 0;
+}

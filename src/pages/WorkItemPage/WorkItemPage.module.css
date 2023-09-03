@@ -1,0 +1,54 @@
+.headContent {
+}
+.year {
+    border-radius: 16px;
+    background: #ff7c7c;
+    width: 62px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+.tags {
+    color: #21243d;
+    font-size: 20px;
+    font-weight: 400;
+}
+.aditionalInfoContainer {
+    display: flex;
+    gap: 17px;
+    margin: 24px 0px 24px 0px;
+}
+
+/* стили к содержимому main */
+.headContent img {
+    width: 100%;
+    margin: 27px 0px 27px 0px;
+}
+
+.style_h1 {
+    color: #21243d;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px; /* 200% */
+    margin: 20px 0px 20px 0px;
+}
+.style_h2 {
+    color: #21243d;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 60px; /* 250% */
+    margin: 20px 0px 20px 0px;
+}
+
+@media (max-width: 1200px) {
+    .headContent {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+}

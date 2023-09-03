@@ -1,0 +1,19 @@
+.image_container {
+    min-width: 243px;
+    height: 243px;
+    position: relative;
+    margin: -50px 0px 0px 0px;
+}
+.image_container img {
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+.first_img {
+    z-index: 1;
+    top: 13px;
+    right: 5px;
+}
+.main_img {
+    z-index: 3;
+}

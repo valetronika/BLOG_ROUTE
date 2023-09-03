@@ -1,0 +1,20 @@
+.work__container {
+    /* margin: 0px 0px 58px 0px; */
+}
+.work__container h2 {
+    color: #21243d;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+}
+
+/* ----------- */
+
+@media (max-width: 768px) {
+    .work__container{
+margin: 0px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 500px) {
+}

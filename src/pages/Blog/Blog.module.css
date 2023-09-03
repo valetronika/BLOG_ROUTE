@@ -1,0 +1,11 @@
+.title {
+    color: #21243d;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+    margin: 0px 0px 40px 0px;
+}
+
+.blog_page {
+    padding: 0px 0px 40px 0px;
+}

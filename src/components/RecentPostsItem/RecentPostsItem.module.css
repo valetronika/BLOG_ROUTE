@@ -1,0 +1,27 @@
+.recent__item {
+    /* display: flex; */
+    background-color: #ffffff;
+    padding: 24px 22px 22px 22px;
+}
+
+.recent__item h2 {
+    color: #21243d;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.info__item {
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px 10px 0px;
+    
+    color: #21243d;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info__item:nth-child(1){
+    border-right: 1px solid rgba(0, 0, 0, 0.24);
+
+}

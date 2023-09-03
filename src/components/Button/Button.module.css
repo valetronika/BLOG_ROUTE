@@ -1,0 +1,13 @@
+.button_orange {
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    border: 1px solid #ff6464;
+    background: #ff6464;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+    cursor: pointer;
+}

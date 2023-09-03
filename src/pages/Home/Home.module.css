@@ -1,0 +1,14 @@
+
+
+.desc_title{
+    color:  #21243D;
+font-size: 22px;
+font-weight: 400;
+line-height: 60px; /* 272.727% */
+}
+
+.recent_posts{
+    background: #EDF7FA;
+    padding: 10px 0px 30px 0px;
+    margin: 0px 0px 20px 0px;
+}
