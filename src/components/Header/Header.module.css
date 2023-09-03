@@ -1,7 +1,13 @@
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 27px 60px 90px 0px;
+}
+.nav > a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: #0e3f88;
 }
 .header_wrapper {
     min-height: 160px;

@@ -25,6 +25,7 @@ export default function Header() {
     return (
         <div className={s.header_wrapper}>
             <nav className={navClassName}>
+                <a href="https://github.com/valetronika/BLOG_ROUTE">{`github.com <<<`}</a>
                 <ul
                     className={activeToggle ? s.activeToggle : s.inactiveToggle}
                 >
