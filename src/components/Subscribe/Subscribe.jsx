@@ -5,26 +5,8 @@ import { FaGooglePlay, FaApple } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function Subscribe() {
-
-
-    let url = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.590467792552!2d6.783754299999999!3d51.2266195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8ca24801ca8ab%3A0xe3dfa25ab1039332!2zU2NoYWRvd3N0cmHDn2UsIETDvHNzZWxkb3Jm!5e0!3m2!1sru!2sde!4v1693741672337!5m2!1sru!2sde'
     return (
         <div className={s.subscribe_container}>
-            <div className={s.map_container}>
-                <p>Our address :  <span>GALERIA Düsseldorf Schadowstraße</span></p>
-                <div>
-                    {
-                        <iframe
-                            title="Map"
-                            src={url}
-                            allowFullScreen=""
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                        ></iframe>
-                    }
-
-                </div>
-            </div>
             <form className={s.form}>
                 <div className={s.form__description}>
                     <CiMail className={s.icon} />
@@ -41,7 +23,10 @@ export default function Subscribe() {
                 <p>
                     By subscribing, you understand and agree that we will store,
                     process and manage your personal information according to
-                    our <Link className={s.privacy} to='/contact'>Privacy Policy</Link>
+                    our{" "}
+                    <Link className={s.privacy} to="/contact">
+                        Privacy Policy
+                    </Link>
                 </p>
             </form>
             <div className={s.follow_box}>

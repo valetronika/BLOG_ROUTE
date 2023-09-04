@@ -1,13 +1,18 @@
 .nav {
     display: flex;
-    justify-content: space-between;
-    margin: 27px 60px 90px 0px;
+    justify-content: end;
+    position: relative;
+    margin: 27px auto;
+    padding: 0px 60px 0px 60px;
 }
-.nav > a{
+.logo_place {
     text-decoration: none;
     font-weight: 600;
     font-size: 25px;
     color: #0e3f88;
+    position: absolute;
+    left: 10px;
+    top: 0;
 }
 .header_wrapper {
     min-height: 160px;
@@ -43,6 +48,11 @@
     display: none;
 }
 
+@media (max-width: 1200px) {
+    .nav {
+        padding: 0px 10px 0px 10px;
+    }
+}
 @media (max-width: 768px) {
     .toggle {
         display: block;
