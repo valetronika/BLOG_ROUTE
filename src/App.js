@@ -13,7 +13,7 @@ function App() {
     <>
       <main className='container'>
         <Routes>
-            <Route path='/' element={<Layout/>}>
+            <Route path='/BLOG_ROUTE' element={<Layout/>}>
                 <Route index element={<Home/>}/>
                 <Route path='/blog' element={<Blog/>}/>
                 <Route path='/works' element={<Work/>}/>
