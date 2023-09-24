@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/BLOG_ROUTE/static/css/main.d7337c49.css",
-    "main.js": "/BLOG_ROUTE/static/js/main.d801ed24.js",
+    "main.css": "/BLOG_ROUTE/static/css/main.40933cea.css",
+    "main.js": "/BLOG_ROUTE/static/js/main.e05d0ddd.js",
     "static/media/mainImg2.svg": "/BLOG_ROUTE/static/media/mainImg2.8f75567b8a287c71f71d50f677c8ffe7.svg",
+    "static/media/download-on-the-app-store-apple-logo-svgrepo-com.svg": "/BLOG_ROUTE/static/media/download-on-the-app-store-apple-logo-svgrepo-com.c192f2fdf7eaf0429cb6b8e9565177a2.svg",
+    "static/media/google-play-badge-1-logo-svgrepo-com.svg": "/BLOG_ROUTE/static/media/google-play-badge-1-logo-svgrepo-com.74c85deac180af89f9f61aa88d7d486e.svg",
     "static/media/icon_instagram.svg": "/BLOG_ROUTE/static/media/icon_instagram.fa501a8318702d8f77554e350638f51d.svg",
     "static/media/icon_twitter.svg": "/BLOG_ROUTE/static/media/icon_twitter.6fa2dda63e1d670cbc69edddd19b423f.svg",
     "static/media/icon_linkedin.svg": "/BLOG_ROUTE/static/media/icon_linkedin.a4340becda273f4d05985c6c30c65370.svg",
     "index.html": "/BLOG_ROUTE/index.html",
     "static/media/icon_fb.svg": "/BLOG_ROUTE/static/media/icon_fb.44919ae56f5592e5c7901e9adaf8ea86.svg",
     "static/media/mainImg1.svg": "/BLOG_ROUTE/static/media/mainImg1.c956d2d2830fc518cf34db2fd95a5d4a.svg",
-    "main.d7337c49.css.map": "/BLOG_ROUTE/static/css/main.d7337c49.css.map",
-    "main.d801ed24.js.map": "/BLOG_ROUTE/static/js/main.d801ed24.js.map"
+    "main.40933cea.css.map": "/BLOG_ROUTE/static/css/main.40933cea.css.map",
+    "main.e05d0ddd.js.map": "/BLOG_ROUTE/static/js/main.e05d0ddd.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7337c49.css",
-    "static/js/main.d801ed24.js"
+    "static/css/main.40933cea.css",
+    "static/js/main.e05d0ddd.js"
   ]
 }
